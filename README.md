@@ -25,7 +25,7 @@ Bikin Schema di model -> Controller -> Route
    GET /products
 
    Flow:
-   Client Request → Routes → Controller → Model → Database
+   Client Request → Routes → Controllers → Models → Database
    ```
 
 2. Get Product by ID
@@ -34,7 +34,7 @@ Bikin Schema di model -> Controller -> Route
    GET /products/:id
 
    Flow:
-   Client Request → Routes → Controller → Model → Database
+   Client Request → Routes → Controllers → Models → Database
    ```
 
 3. Create Product
@@ -43,7 +43,7 @@ Bikin Schema di model -> Controller -> Route
    POST /products
 
    Flow:
-   Client Request → Routes → Controller → Model → Database
+   Client Request → Routes → Controllers → Models → Database
    ```
 
 4. Update Product
@@ -52,7 +52,7 @@ Bikin Schema di model -> Controller -> Route
    PUT /products/:id
 
    Flow:
-   Client Request → Routes → Controller → Model → Database
+   Client Request → Routes → Controllers → Models → Database
    ```
 
 5. Delete Product
@@ -61,5 +61,5 @@ Bikin Schema di model -> Controller -> Route
    DELETE /products/:id
 
    Flow:
-   Client Request → Routes → Controller → Service → Model → Database
+   Client Request → Routes → Controllers → Models → Database
    ```
