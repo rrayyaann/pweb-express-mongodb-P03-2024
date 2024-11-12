@@ -11,7 +11,7 @@
 # Alur Development (Development Flow)
 
 Flow:
-Bikin Schema di model -> Controller -> Service -> Route
+Bikin Schema di model -> Controller -> Route
 
 # Alur Aplikasi (Application Flow)
 
